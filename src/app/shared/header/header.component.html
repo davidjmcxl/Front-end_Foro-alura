@@ -1,0 +1,29 @@
+<header>
+  <div class="w-full h-16 bg-[#5ab2ad]">
+    <div class="flex justify-between  ">
+
+      <div class="logo-alura flex   mx-3">
+
+        <img src="assets/logo-alura-white.svg" alt="">
+      </div>
+      <h1 class="hidden md:block text-white  text-5xl font-reboto tracking-tight mx-2 italic ">Foro</h1>
+      <div class="flex ">
+        <div class="flex items-center justify-center overflow-hidden bg-[#ffffff] rounded-full w-11 h-11 mt-2">
+
+          <p class="text-[#5ab2ad] font-semibold text-xl">S<!-- {{user.lastname | stringInitial}} --></p>
+
+      </div>
+      <div class="flex items-center justify-center mt-2">
+
+        <p class="text-white font-semibold text-xl mx-3">Samuel<!-- {{user.lastname | stringInitial}} --></p>
+        <div class="cursor-pointer" routerLink="/auth/login" >
+          <fa-icon class="text-xl text-white  mx-5"  [icon]="faRightFromBracket" colr></fa-icon>
+        </div>
+
+    </div>
+      </div>
+
+    </div>
+
+  </div>
+</header>

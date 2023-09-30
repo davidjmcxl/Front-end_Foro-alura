@@ -1,0 +1,3 @@
+.bg-figure{
+  background-image: radial-gradient(ellipse farthest-corner at 45px 45px , rgb(186, 195, 246) 20%, rgba(0, 0, 0, 0) 0%, #fff 50%);
+}
